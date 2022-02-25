@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+
+.main{
+       background-color: hsl(217, 54%, 11%);
+      width: 70%;
+      max-width: 1000px;
+       margin: 0 auto;
+       padding:80px;
+       
+
+    
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+     border-radius: 7%;
+     max-height: 500px;
+}
+
+@media only screen and (min-width: 700px) {
+    .main,.image,.ava-img,.ava-text{
+         margin: 0 auto;
+    }
+    img{
+          width: 50%;
+        
+    }
+
+  }
+
+h1{
+      font-size: 2em;
+      color: hsl(0, 0%, 100%);
+    
+      
+}
+
+p{
+      color: hsl(216, 50%, 30%);
+      font-size: 1.2em;
+    
+}
+
+.all
+{
+  display:flex;  
+  list-style:none;
+}
+
+li:first-child{
+    color: hsl(178, 100%, 50%);
+    list-style-image: url(images/icon-ethereum.svg);
+    margin-left: -20px;
+    
+}
+
+
+li:nth-child(2){
+   color: hsl(216, 50%, 30%);
+   list-style-image: url(images/icon-clock.svg);
+   margin-left: 142px;
+      
+}
+
+
+hr{
+    border: 0.1px solid hsl(215, 32%, 27%);
+}
+
+.ava-img{
+      float: left;
+      width: 4em;
+      margin-top: 10px;
+}
+
+.ava-text h3{
+      margin-top: 37px;
+      margin-left: 90px;
+      color: hsl(0, 0%, 100%);
+      letter-spacing: 0.4px;
+}
+
+span{
+      color:  hsl(216, 50%, 30%);
+      
+}
+
+
+
+.btn{
+       background-color: cadetblue;
+       width: 200px;
+       height: 70px;
+       font-size: 30px;
+       margin-left: 170px;
+       border: none;
+       outline: none;
+       border-radius: 30px;
+       cursor: pointer;
+}
